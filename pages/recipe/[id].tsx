@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable @next/next/no-img-element */
 
-import { GetStaticProps } from "next";
+import { GetServerSideProps } from "next";
 import styles from "../../styles/recipeDetail.module.css"
 import { MdFavoriteBorder } from 'react-icons/md';
 
@@ -58,7 +58,7 @@ const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe }) => {
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   const { id } = context.params!;
   const apiKey = 'b15461cfa5bc469aa1c0ac2cd3cba422';
 
