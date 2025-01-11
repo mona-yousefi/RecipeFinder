@@ -6,8 +6,7 @@ const nextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? '/Recipe-Finder/' : '',
-  basePath: isProd ? '/Recipe-Finder' : '',
-  output: 'export'
+  basePath: isProd ? '/Recipe-Finder' : ''
 };
 
 export default nextConfig;
