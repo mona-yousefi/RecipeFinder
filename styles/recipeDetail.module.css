@@ -1,0 +1,114 @@
+.body{
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightyellow;
+    width: 80%;
+    margin-top: 20px;
+}
+.text{
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-family: "Poppins", serif;
+}
+.img{
+    width: 50%;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.ol{
+    list-style-type: number;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+.para{
+    text-align: start;
+    width: 80%;
+    margin-top: 10px;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    gap: 3px;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid lightsalmon;
+    padding: 5px;
+}
+.listItem{
+    font-style: italic;
+    font-size: 18px;
+    font-family: "Poppins", serif;
+}
+.para2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.instruction{
+    font-weight: bold;
+    font-size: 20px;
+    align-self: center;
+    width: 80%;
+    margin-top: 40px;
+}
+@media screen and (max-width:800px){
+    .img{
+        width: 70%;
+    }
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: lightyellow;
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+        gap: 3px;
+        text-align: center;
+        margin-top: 10px;
+        border: 2px solid lightsalmon;
+        padding: 5px;
+    }
+}
+.para3{
+    align-self: flex-end;
+    margin-right: 40px;
+}
+.para4{
+    text-align: start;
+    color: rgb(255, 115, 59);
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+}
+.icon{
+    align-self: flex-end;
+    font-size: 40px;
+    cursor: pointer;
+    margin-right: 80px;
+}
