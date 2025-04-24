@@ -9,7 +9,7 @@
     "start":"next start",
     "lint":"next lint",
     "build": "next build",
-  
+    "export": "next export",
     "predeploy": "npm run build"
   },
   "dependencies": {
